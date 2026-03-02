@@ -1,16 +1,14 @@
-# This is a sample Python script.
+# main.py
+from fastapi import FastAPI
+from api import dag_router, node_router, node_dependencies_router
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+app = FastAPI()
 
+# Include the routers
+app.include_router(dag_router, prefix="/workflow", tags=["dag"])
+app.include_router(node_router, prefix="/workflow", tags=["node"])
+app.include_router(node_dependencies_router, prefix="/workflow", tags=["node_dependencies"])
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+@app.get("/")
+async def root():
+    return {"message": "Main Application Entry"}

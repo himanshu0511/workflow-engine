@@ -1,5 +1,5 @@
 
-class NodeConnection:
+class NodeDependencies:
     dagId: str
     nodeId: str
     dependsOnNodeId: str
