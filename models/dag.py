@@ -1,26 +1,45 @@
 import datetime
 from enum import Enum
+from typing import Optional
 
+from sqlalchemy import Column, Enum as SAEnum, String as SAString, DateTime, text
+from sqlmodel import SQLModel, Field
+
+from models.util.ulid_type import ulid_field
 
 class DagType(str, Enum):
-    def __str__(self):
-        return str(self.value)
-    def __repr__(self):
-        return f"DagType.{self.name}"
     SCHEDULED = 'scheduled'
     ON_DEMAND = 'on_demand'
 
-    def __init__(self, value):
-        if value not in [self.SCHEDULED, self.ON_DEMAND]:
-            raise ValueError(f"Invalid DagType: {value}")
+class DAG(SQLModel, table=True):
+    # 1. Primary Key using your ULID util
+    id: str = ulid_field(primary_key=True)
 
-class DAG:
-    id: str
-    type: DagType
-    name: str
-    description: str
-    createdAt: datetime.datetime
-    updatedAt: datetime.datetime
-    cronString: str
-    nextRun: datetime.datetime
+    # 2. Native MySQL Enum - Pydantic handles validation automatically
+    type: DagType = Field(
+        sa_column=Column(SAEnum(DagType), nullable=False)
+    )
 
+    # 3. Strings with explicit lengths for MySQL indexing
+    name: str = Field(index=True, unique=True, max_length=255)
+    description: str = Field(max_length=255, nullable=False)
+
+    # 4. Automated Timestamps
+    # createdAt: Set once on creation
+    created_at: datetime.datetime = Field(
+        default_factory=datetime.datetime.utcnow,
+        sa_column_kwargs={"server_default": text("CURRENT_TIMESTAMP")}
+    )
+
+    # updatedAt: Updates every time the row is modified (MySQL native feature)
+    updated_at: datetime.datetime = Field(
+        default_factory=datetime.datetime.utcnow,
+        sa_column_kwargs={
+            "server_default": text("CURRENT_TIMESTAMP"),
+            "onupdate": text("CURRENT_TIMESTAMP"),
+        }
+    )
+
+    # 5. Optional fields
+    cron_string: Optional[str] = Field(default=None, max_length=255)
+    next_run: Optional[datetime.datetime] = Field(default=None)

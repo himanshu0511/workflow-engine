@@ -1,15 +1,11 @@
 import datetime
-from dataclasses import dataclass
 from enum import Enum
-from typing import Optional
-from sqlmodel import Field, SQLModel, create_engine
+from sqlmodel import Field, SQLModel
+from sqlalchemy import Column, Enum as SAEnum, text
+from models.util.ulid_type import ulid_field
 
 # values def/condional/exec/network/email/sms/whatsapp
 class NodeType(str, Enum):
-    def __str__(self):
-        return self.value
-    def __repr__(self):
-        return f"NodeType.{self.name}"
     DEF = 'def'
     COND = 'cond'
     EXEC = 'exec'
@@ -19,23 +15,47 @@ class NodeType(str, Enum):
     WHATSAPP = 'whatsapp'
 
 class RetryType(str, Enum):
-    def __str__(self):
-        return self.value
-    def __repr__(self):
-        return f"RetryType.{self.name}"
     NONE = 'none'
     FIXED = 'fixed'
     EXPONENTIAL = 'exponential'
     LINEAR = 'linear'
 
-class Node:
-    id: str
-    type: NodeType
-    dagId: str
-    source: str
-    retryType: RetryType
-    initialDelay: int
-    maxDelay: int
-    factor: float
-    maxRetries: int
-    createdAt: Optional[datetime] = Field(default_factory=datetime.utcnow)
+
+
+class Node(SQLModel, table=True):
+    # 1. Primary Key (Auto-generates ULID)
+    id: str = ulid_field(primary_key=True)
+
+    # 2. Foreign Key (Links to DAG table, uses BINARY(16))
+    dag_id: str = ulid_field(index=True, foreign_key="dag.id")
+
+    # 3. Native MySQL Enums
+    type: NodeType = Field(
+        sa_column=Column(SAEnum(NodeType), nullable=False)
+    )
+
+    retry_type: RetryType = Field(
+        default=RetryType.NONE,
+        sa_column=Column(SAEnum(RetryType), nullable=False, server_default=RetryType.NONE)
+    )
+
+    # 4. Node Logic
+    source: str = Field(max_length=1024)  # Increased length for source code/scripts
+    initial_delay: int = Field(default=0)
+    max_delay: int = Field(default=0)
+    factor: float = Field(default=1.0)
+    max_retries: int = Field(default=0)
+
+    # 5. Timestamps
+    created_at: datetime.datetime = Field(
+        default_factory=datetime.datetime.utcnow,
+        sa_column_kwargs={"server_default": text("CURRENT_TIMESTAMP")}
+    )
+
+    updated_at: datetime.datetime = Field(
+        default_factory=datetime.datetime.utcnow,
+        sa_column_kwargs={
+            "server_default": text("CURRENT_TIMESTAMP"),
+            "onupdate": text("CURRENT_TIMESTAMP"),
+        }
+    )
