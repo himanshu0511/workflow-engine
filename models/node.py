@@ -3,22 +3,7 @@ from enum import Enum
 from sqlmodel import Field, SQLModel
 from sqlalchemy import Column, Enum as SAEnum, text
 from models.util.ulid_type import ulid_field
-
-# values def/condional/exec/network/email/sms/whatsapp
-class NodeType(str, Enum):
-    DEF = 'def'
-    COND = 'cond'
-    EXEC = 'exec'
-    NETWORK = 'network'
-    EMAIL = 'email'
-    SMS = 'sms'
-    WHATSAPP = 'whatsapp'
-
-class RetryType(str, Enum):
-    NONE = 'none'
-    FIXED = 'fixed'
-    EXPONENTIAL = 'exponential'
-    LINEAR = 'linear'
+from models.enums import ExecutionType
 
 
 
@@ -30,8 +15,8 @@ class Node(SQLModel, table=True):
     dag_id: str = ulid_field(index=True, foreign_key="dag.id")
 
     # 3. Native MySQL Enums
-    type: NodeType = Field(
-        sa_column=Column(SAEnum(NodeType), nullable=False)
+    type: ExecutionType = Field(
+        sa_column=Column(SAEnum(ExecutionType), nullable=False)
     )
 
     retry_type: RetryType = Field(

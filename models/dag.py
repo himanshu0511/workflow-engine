@@ -1,15 +1,12 @@
 import datetime
-from enum import Enum
 from typing import Optional
 
 from sqlalchemy import Column, Enum as SAEnum, String as SAString, DateTime, text
 from sqlmodel import SQLModel, Field
 
+from models.enums.dag_type import DagType
 from models.util.ulid_type import ulid_field
 
-class DagType(str, Enum):
-    SCHEDULED = 'scheduled'
-    ON_DEMAND = 'on_demand'
 
 class DAG(SQLModel, table=True):
     # 1. Primary Key using your ULID util

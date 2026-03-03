@@ -1,18 +1,10 @@
 import datetime
-from enum import Enum
 from typing import Optional
 from sqlalchemy import Column, Enum as SAEnum, text, Index
 from sqlmodel import SQLModel, Field
 
-# Assuming this is your custom utility
+from models.enums import DagStatus
 from models.util.ulid_type import ulid_field
-
-
-class DagStatus(str, Enum):
-    RUNNING = 'running'
-    SUCCESS = 'success'
-    FAILED = 'failed'
-    TO_BE_EXECUTED = 'to_be_executed'
 
 
 class DagAudit(SQLModel, table=True):

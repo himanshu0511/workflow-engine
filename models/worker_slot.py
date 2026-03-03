@@ -1,7 +1,9 @@
 import datetime
 from typing import Optional
-from sqlalchemy import Column, text, String
+from sqlalchemy import Column, text, Enum as SaEnum
 from sqlmodel import SQLModel, Field
+
+from models.enums import ExecutionType
 from models.util.ulid_type import ulid_field
 
 
@@ -10,6 +12,8 @@ class WorkerSlot(SQLModel, table=True):
 
     # 1. Unique Slot ID (ULID)
     id: str = ulid_field(primary_key=True)
+
+    execution_type: ExecutionType = Field(sa_column=Column(SaEnum(ExecutionType), nullable=False))
 
     # 2. Lease Information
     # Which physical process/pod currently owns this slot
@@ -26,6 +30,12 @@ class WorkerSlot(SQLModel, table=True):
 
     # 4. Optional: Current Task Tracking
     current_dag_instance_id: Optional[str] = ulid_field(
+        index=True,
+        nullable=True,
+        default=None
+    )
+    # 4. Optional: Current Task Tracking
+    current_node_instance_id: Optional[str] = ulid_field(
         index=True,
         nullable=True,
         default=None
