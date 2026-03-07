@@ -1,113 +1,113 @@
-<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" modified="2026-03-03T11:10:12.797Z" version="22.1.22" etag="W_O179qDVYcK2ACPYvVH" type="embed">
+<mxfile host="drawio-plugin" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" modified="2026-03-03T11:36:30.195Z" etag="IINWH7bkOG0zkiOUzW75" version="22.1.22" type="embed">
   <diagram name="Page-1" id="kykK_ro2YdU5S9L6iTs6">
-    <mxGraphModel dx="866" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2072" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-1" value="Workflow&lt;br&gt;&lt;br&gt;type of nodes&lt;br&gt;1- conditional&lt;br&gt;2- execution of code of any language&lt;div&gt;3- predefined tasks like send email, sms, whatsapp, notification&lt;br&gt;4- variable creation and inialisation&lt;br&gt;5- http execution Node&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;User should be able to defined this dag preferrably through api call&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-1" value="Workflow&lt;br&gt;&lt;br&gt;type of nodes&lt;br&gt;1- conditional&lt;br&gt;2- execution of code of any language&lt;div&gt;3- predefined tasks like send email, sms, whatsapp, notification&lt;br&gt;4- variable creation and inialisation&lt;br&gt;5- http execution Node&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;User should be able to defined this dag preferrably through api call&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="150" y="50" width="260" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-5" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-5" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="440" as="sourcePoint" />
             <mxPoint x="170" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-6" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-6" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="390" as="sourcePoint" />
             <mxPoint x="220" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-7" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-7" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="390" as="sourcePoint" />
             <mxPoint x="230" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-9" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-9" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="440" as="sourcePoint" />
             <mxPoint x="280" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-10" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-10" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="440" as="sourcePoint" />
             <mxPoint x="390" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-11" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-11" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="360" as="sourcePoint" />
             <mxPoint x="400" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-12" value="Node&lt;br&gt;id&lt;br&gt;type- def/condional/exec/network/email/sms/whatsapp&lt;div&gt;dagId:&amp;nbsp;&lt;/div&gt;&lt;div&gt;souce: s3://bucket/code_path&lt;br&gt;retryTimes:&lt;br&gt;retryType:flat/exponentialBackoff&lt;br&gt;initialDelay&lt;br&gt;delayMultiplier:&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-12" value="Node&lt;br&gt;id&lt;br&gt;type- def/condional/exec/network/email/sms/whatsapp&lt;div&gt;dagId:&amp;nbsp;&lt;/div&gt;&lt;div&gt;souce: s3://bucket/code_path&lt;br&gt;retryTimes:&lt;br&gt;retryType:flat/exponentialBackoff&lt;br&gt;initialDelay&lt;br&gt;delayMultiplier:&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="50" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-13" value="Entities" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-13" value="Entities" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="-160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-14" value="NodeDependents&lt;br&gt;nodeId:&lt;br&gt;dependsOnNodeId:&lt;div&gt;dagId:&amp;nbsp;&lt;br&gt;status:ACTIVE/DISABLED/DELETED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-14" value="NodeDependents&lt;br&gt;nodeId:&lt;br&gt;dependsOnNodeId:&lt;div&gt;dagId:&amp;nbsp;&lt;br&gt;status:ACTIVE/DISABLED/DELETED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="240" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-15" value="DAG&lt;br&gt;id:&lt;br&gt;executionType: SCHEDULED/ON_DEMAND&lt;div&gt;scheduledCronStr: * 5 * * * *&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-15" value="DAG&lt;br&gt;id:&lt;br&gt;executionType: SCHEDULED/ON_DEMAND&lt;div&gt;scheduledCronStr: * 5 * * * *&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="-100" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-16" value="DagResource&lt;div&gt;OPERATIONS: GET/CREATE/UDATE/DELETE/SEARCH&lt;/div&gt;&lt;div&gt;/TRIGGER&lt;/div&gt;&lt;div&gt;&lt;br&gt;No need to expose this. This can be just created with dag create&lt;/div&gt;&lt;div&gt;NodeResource&lt;/div&gt;&lt;div&gt;GET/CREATE/UDATE/DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NodeConnection&lt;/div&gt;&lt;div&gt;GET/CREATE/DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="490" y="1050" width="300" height="340" as="geometry" />
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-16" value="DagResource&lt;div&gt;OPERATIONS: GET/CREATE/UDATE/DELETE/SEARCH&lt;/div&gt;&lt;div&gt;/TRIGGER&lt;/div&gt;&lt;div&gt;&lt;br&gt;No need to expose this. This can be just created with dag create&lt;/div&gt;&lt;div&gt;NodeResource&lt;/div&gt;&lt;div&gt;GET/CREATE/UDATE/DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;NodeConnection&lt;/div&gt;&lt;div&gt;GET/CREATE/DELETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1330" width="300" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-18" target="0iQ6He1Qyg66jIWzY_6x-19" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-18" target="0iQ6He1Qyg66jIWzY_6x-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-18" value="DAG trigger" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-18" value="DAG trigger" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="200" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-19" target="0iQ6He1Qyg66jIWzY_6x-25" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-19" target="0iQ6He1Qyg66jIWzY_6x-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-19" value="1- Find Root Nodes which are not dependent 2.&amp;nbsp; fetch initial parameters and required parameters&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-19" value="1- Find Root Nodes which are not dependent 2.&amp;nbsp; fetch initial parameters and required parameters&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="170" y="790" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-21" value="NodeKeyValueGroup&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;br&gt;&lt;/div&gt;&lt;div&gt;id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-21" value="NodeKeyValueGroup&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;br&gt;&lt;/div&gt;&lt;div&gt;id&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="380" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-22" value="DAGAudit&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;br&gt;dagInstanceId&lt;/div&gt;&lt;div&gt;nodeInstanceId&lt;/div&gt;&lt;div&gt;inputId&lt;/div&gt;&lt;div&gt;outputId&lt;/div&gt;&lt;div&gt;startedAt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-22" value="a" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="880" width="290" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-23" value="NodeKeyValue&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;br&gt;&lt;/div&gt;&lt;div&gt;groupId&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;value&lt;/div&gt;&lt;div&gt;createdAt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-23" value="NodeKeyValue&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;br&gt;&lt;/div&gt;&lt;div&gt;groupId&lt;/div&gt;&lt;div&gt;name&lt;/div&gt;&lt;div&gt;value&lt;/div&gt;&lt;div&gt;createdAt&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="490" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-24" value="NodeRequiredKeys&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;/div&gt;&lt;div&gt;fromNodeId&lt;/div&gt;&lt;div&gt;keyName&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-24" value="NodeRequiredKeys&lt;div&gt;dagId&lt;/div&gt;&lt;div&gt;nodeId&lt;/div&gt;&lt;div&gt;fromNodeId&lt;/div&gt;&lt;div&gt;keyName&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="620" width="290" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-25" value="3. put in queue for works to pick up and execute Node." style="whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-25" value="3. put in queue for works to pick up and execute Node." style="whiteSpace=wrap;html=1;align=left;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="165" y="930" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-28" target="0iQ6He1Qyg66jIWzY_6x-29" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-28" target="0iQ6He1Qyg66jIWzY_6x-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-28" value="Pull message from queue" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-28" value="Pull message from queue" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="180" y="1150" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-29" target="0iQ6He1Qyg66jIWzY_6x-31" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-29" target="0iQ6He1Qyg66jIWzY_6x-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-29" value="fetch source code" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-29" value="fetch source code" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="200" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-31" target="0iQ6He1Qyg66jIWzY_6x-33" edge="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;shadow=1;strokeOpacity=100;strokeColor=#EEEEEE;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="0iQ6He1Qyg66jIWzY_6x-31" target="0iQ6He1Qyg66jIWzY_6x-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-31" value="initiate execution with source language while passing arguments&lt;br&gt;record logs in a file, put in s3 bucket to be fetched when required with ttl of 1 day.&lt;br&gt;&lt;br&gt;record returned map in node key value group" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-31" value="initiate execution with source language while passing arguments&lt;br&gt;record logs in a file, put in s3 bucket to be fetched when required with ttl of 1 day.&lt;br&gt;&lt;br&gt;record returned map in node key value group" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="177.5" y="1580" width="172.5" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="0iQ6He1Qyg66jIWzY_6x-33" value="&lt;br&gt;&lt;br&gt;fetch dags where this node was dependency, check if depencencies are resolved for that node and if yes push it for execution" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
+        <mxCell id="0iQ6He1Qyg66jIWzY_6x-33" value="&lt;br&gt;&lt;br&gt;fetch dags where this node was dependency, check if depencencies are resolved for that node and if yes push it for execution" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="185.63" y="1910" width="156.25" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="Workers&lt;br&gt;type&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1450" width="290" height="230" as="geometry" />
+        <mxCell id="2" value="&lt;h3&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;workder_slot&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; background-color: initial; font-weight: normal;&quot;&gt;id&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; background-color: initial; font-weight: normal;&quot;&gt;execution_type&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;owner_id&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;is_busy&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;expires_at&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;current_dag_instance_id&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;current_node_instance_id&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h3&gt;&lt;h3&gt;&lt;/h3&gt;&lt;h3&gt;&lt;/h3&gt;&lt;p style=&quot;font-size: 12px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;align=left;labelBackgroundColor=none;labelBorderColor=none;shadow=1;strokeOpacity=100;fillColor=#B1DDF0;strokeColor=#BAC8D3;fontColor=#182E3E;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1050" width="290" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
